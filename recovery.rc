@@ -196,7 +196,7 @@ service console /system/bin/sh
 #service vold /system/bin/vold
 #    socket vold stream 0660 root mount
 
-service recovery /system/bin/recovery
+service recovery /sbin/recovery
     oneshot
 
 # adbd is controlled by the persist.service.adb.enable system property
