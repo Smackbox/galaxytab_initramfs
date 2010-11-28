@@ -115,7 +115,7 @@ loglevel 3
 # mount mtd partitions
     # Mount /system rw first to give the filesystem a chance to save a checkpoint
     #mount yaffs2 mtd@system /system
-    mount rfs /dev/block/stl9 /system check=no
+    #mount rfs /dev/block/stl9 /system check=no
     #mount yaffs2 mtd@system /system ro remount
 
 # use movinand second partition as /data. d.moskvitin
